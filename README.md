@@ -1,3 +1,5 @@
+Sumjoy2's custom Mana theme for their website
+
 # Hugo Mana Theme
 
 Futuristic hugo theme featuring clean aesthetics, and modern functionality and responsive design.
