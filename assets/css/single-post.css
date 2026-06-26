@@ -445,6 +445,11 @@
   padding: inherit;
 }
 
+.post-content-main hr {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
 .post-footer {
   margin-top: var(--spacing-xl);
   padding-top: var(--spacing-lg);

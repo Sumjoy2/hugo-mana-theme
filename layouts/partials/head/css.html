@@ -31,7 +31,7 @@
   (resources.Get "css/animations.css")
   (resources.Get "css/responsive.css")
 }}
-{{ $bundledCss := $cssFiles | resources.Concat "css/bundle.css" | minify | fingerprint }}
+{{ $bundledCss := $cssFiles | resources.Concat "css/bundle.css" | fingerprint }}
 {{- if site.Params.enableIntegrity }}
 <link rel="stylesheet" href="{{ $bundledCss.RelPermalink }}" integrity="{{ $bundledCss.Data.Integrity }}">
 {{- else }}
